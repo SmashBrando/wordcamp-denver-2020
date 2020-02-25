@@ -308,10 +308,10 @@ input[type="submit"]:focus,
 	content: '';
 	display: flex;
 	position: absolute;
-	top: 0;
+	top: 75px;
 	left: 0;
-	max-width: 750px;
-	max-height: 750px;
+	max-width: 1200px;
+	max-height: 800px;
 	width: 100%;
 	height: 100%;
 	z-index: 0;
@@ -319,6 +319,13 @@ input[type="submit"]:focus,
 	background-repeat: no-repeat;
 	opacity: .045;
 	background-size: 100%;
+}
+@media (max-width: 1199px) {
+	.entry-header:after,
+	.footer-nav-widgets-wrapper.header-footer-group:after,
+	.blog .header-inner.section-inner:before {
+		top: 200px;
+	}
 }
 
 @media (min-width: 700px) {
