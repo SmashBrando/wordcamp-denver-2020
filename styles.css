@@ -271,11 +271,11 @@ input[type="submit"]:focus,
 	background: #0b3d53;
 	position: absolute;
 	width: 100%;
-	height: 200px;
+	height: 325px;
 	top: -199px;
 	left: 0;
 	transform-origin: bottom left;
-	transform: skewY(3deg);
+	transform: skewY(5deg);
 	z-index: -1;
 }
 
