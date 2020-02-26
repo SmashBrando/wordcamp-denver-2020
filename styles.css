@@ -282,7 +282,7 @@ input[type="submit"]:focus,
 	top: -199px;
 	left: 0;
 	transform-origin: bottom left;
-	transform: skewY(5deg);
+	transform: skewY(4deg);
 	z-index: -1;
 }
 
