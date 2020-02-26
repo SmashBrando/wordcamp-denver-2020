@@ -2,6 +2,13 @@
 	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+@media (min-width: 700px) {
+	.site-logo img {
+		max-height: 20rem;
+	}
+}
+
+
 /* BODY OVERRIDE */
 body.custom-background {
 	background-color: #ffffff;
